@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+}
+
+header h1 {
+    
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    text-align: center;
+    justify-content: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.exchange-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.exchange-item {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.exchange-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.exchange-item:hover {
+    background-color: #444;
+}
+
+footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-nav li {
+    display: inline;
+}
+
+.footer-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
